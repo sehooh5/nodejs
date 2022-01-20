@@ -1,6 +1,3 @@
-
-
-
 // 2. remove listener
 var onUncaughtException = function(error){
     console.log('exception !!!');
