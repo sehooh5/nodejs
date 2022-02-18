@@ -79,3 +79,24 @@
 
 - 핸드캐리 관련한 사업
 - 개발자 위한 소품?
+- 창업 관련 지원
+  - 예비창업패키지
+    - 2월 사업 공고 / 3월 신청 접수
+    - https://www.k-startup.go.kr/
+  - 창업 사관학교
+    - 1월 예정 / 1~2월 신청 접수
+    - https://www.k-startup.go.kr/
+  - 창조경제혁신센터
+    - 연중 수시
+    - 직접 방문 및 https://ccei.creativekorea.or.kr/
+  - 신사업 창업사관학교
+    - 1월 예정 / 2~3월 신청 접수
+    -  http://newbiz.sbiz.or.kr
+  - 실전 창업교육
+    - 1월, 6월 공고 및 접수
+    - https://www.k-startup.go.kr/
+  - 경기 기술창업 지원프로그램
+    - 2월 사업공고 / 3월 신청 접수
+    - https://www.gsp.or.kr
+  - 
+
