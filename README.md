@@ -1,5 +1,9 @@
 # nodejs
 - just for studying node.js
+- 레퍼런스
+  - 모던웹을 위한 Node.js 프로그래밍(책)
+  - 생활코딩
+  - [참고 블로그](https://hoony-gunputer.tistory.com/entry/Do-it-Nodejs-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C-%EB%8B%A4%EB%A5%B8-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%EA%B0%80%EC%A0%B8%EC%99%80-%EC%9D%91%EB%8B%B5%ED%95%98%EA%B8%B0)
 
 
 
