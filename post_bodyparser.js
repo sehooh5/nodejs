@@ -13,7 +13,7 @@ http.createServer(app).listen(3000, function(){
 app.use('/', function(req, res){
     var id = req.body.id
     var pw = req.body.pw
-
+    console.log(id+" "+pw)
     res.writeHead(200, {'Content-Type': 'text/html;charset=utf8'})
     res.write("ID = "+id)
     res.write("PW = "+pw)
