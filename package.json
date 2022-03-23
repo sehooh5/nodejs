@@ -2,6 +2,7 @@
   "dependencies": {
     "cookie-parser": "^1.4.6",
     "express": "^4.17.3",
+    "express-error-handler": "^1.1.0",
     "express-session": "^1.17.2",
     "urllib": "^2.38.0"
   }
