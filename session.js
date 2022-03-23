@@ -20,7 +20,7 @@ router.route('/login/Session').post(function(req,res){
 
     if(req.session.user){//이미 로그인이 되어있다면
         console.log('이미 로그인 되어있음!')
-        req.redirect('/ProductPage.html');
+        res.redirect('/ProductPage.html');
     }else{
         req.session.user = {
             id:paramId,
