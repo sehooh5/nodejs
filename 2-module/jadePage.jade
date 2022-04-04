@@ -1,0 +1,24 @@
+html
+    head
+        title Index Page
+    body
+        // Jade String
+        h1 Hello jade !
+        h2 Seho
+        hr
+        a(href="http://naver.com", data-test="multiple Attribute") Go To NAVER
+        hr
+        #header
+            h1 Second time !
+            h2 SH
+        hr
+        .article
+            a(href="http://naver.com", data-test="multiple Attribute") Go To NAVER
+        hr
+        h1 #{name} .. !
+        h2= description
+        hr
+        - for(var i = 0; i<10; i++){
+            p
+                a(href="http://hanb.co.kr") Go To Hanbit Media #{i}
+        - }
