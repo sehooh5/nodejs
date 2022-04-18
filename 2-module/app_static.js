@@ -1,3 +1,7 @@
+// static 미들웨어
+// 서버에 손쉽게 파일을 제공하는 미들웨어
+// 여기서는 public 폴더 경로를 제공하여 파일을 사용하게 한다
+
 // 모듈 추출
 var http = require('http');
 var express = require('express');
