@@ -13,6 +13,15 @@ app.use(morgan('dev'));
 app.use(express.static(__dirname + '/public'));
 
 // 라우터 설정
+app.get('/page/:id/:num', function(request, response){
+    // 변수 선언
+    var name = request.param('id');
+    var num = request.param('num');
+
+    //응답
+    response.send('<h1>' + name + ' Page</h1>' + '<h2>' + num + ' article</h2>');
+});
+
 app.get('/a', function(request, response){
     response.send('<a href="/b">Go to B</a>');
 });
