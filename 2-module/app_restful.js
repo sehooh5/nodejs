@@ -51,19 +51,38 @@ app.use(bodyParser());
 
 // 라우터 설정
 app.get('/user', function(request, response){
-
+    response.send(DummyDB.get());
 });
 app.get('/user/:id', function(request, response){
-
+    response.send(DummyDB.get(request.param('id')));
 });
 app.post('/user', function(request, response){
+    var name = request.param('name');
+    var region = request.param('region');
 
+    if (name && region){
+        response.send(DummyDB.insert({
+            name: name,
+            region: region
+        }));
+    } else {
+        throw new Error('error');
+    }
 });
 app.put('/user/:id', function(request, response){
+    var id = request.param('id');
+    var name = request.param('name');
+    var region = request.param('region');
 
+    var item = DummyDB.get(id);
+    console.log(DummyDB.get(request.param('id')))
+    item.name = name || item.name;
+    item.region = region || item.region;
+
+    response.send(item);
 });
 app.del('/user/:id', function(request, response){
-
+    response.send(DummyDB.remove(request.param('id')));
 });
 
 http.createServer(app).listen(52273, function(){
